@@ -1,0 +1,131 @@
+/*skills*/
+
+.skill{
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skillContainer{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding: 5vw 5vw 10vw 5vw;
+  }
+  
+  .skill-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transform:scale(1);
+  }
+  
+  .skill-img:hover{
+    background-color:rgba(255,255,0,1);
+    transition-duration: 0.5s;
+    transform:scale(1.2);
+  }
+  
+  .javascript-img{
+    background-image: url("../../assets/img/javascript.png");
+    background-size: cover;
+  }
+  
+  .php-img{
+    background-image: url("../../assets/img/php.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mysql-img{
+    background-image: url("../../assets/img/mysql.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .react-img{
+    background-image: url("../../assets/img/react2.png");
+    background-size: cover;
+  }
+  
+  .node-img{
+    background-image: url("../../assets/img/node.png");
+    background-size: cover;
+  }
+  
+  .jquery-img{
+    background-image: url("../../assets/img/jquery.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .express-img{
+    background-image: url("../../assets/img/express.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .c-img{
+    background-image: url("../../assets/img/c.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .github-img{
+    background-image: url("../../assets/img/github.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .meistertask-img{
+    background-image: url("../../assets/img/meistertask.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .figma-img{
+    background-image: url("../../assets/img/figma.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .aws-img{
+    background-image: url("../../assets/img/aws.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .html-img{
+    background-image: url("../../assets/img/html.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .css-img{
+    background-image: url("../../assets/img/css.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .bootstrap-img{
+    background-image: url("../../assets/img/bootstrap.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 18%;
+  }
+  
+  .babel-img{
+    background-image: url("../../assets/img/babel.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .webpack-img{
+    background-image: url("../../assets/img/webpack.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  

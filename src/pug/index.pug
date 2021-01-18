@@ -1,0 +1,204 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Shane Mcgrath - Portfolio
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+            .container
+                a.navbar-brand.js-scroll-trigger(href='#page-top') Shane Mcgrath
+                button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#about') About
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#projects') Projects
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#skills') Skills
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#signup') Contact
+
+        // Masthead
+        header.masthead
+            .container.d-flex.h-100.align-items-center
+                .mx-auto.text-center
+                    h1.mx-auto.my-0.text-uppercase Shane Mcgrath
+                    h2.text-white-50.mx-auto.mt-2.mb-5 Full-Stack Web Developer
+                    a.btn.btn-primary.js-scroll-trigger(href='#about') 
+                         svg.bi.bi-arrow-down-short(xmlns="http://www.w3.org/2000/svg",width="40",height="40",fill="currentColor", viewBox="0 0 16 16")
+                            path( fill-rule="evenodd",d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z")
+
+        // About
+        section#about.about-section.text-center
+            .container
+                .row
+                    .col-lg-8.mx-auto
+                        h2.text-white.mb-4 About Me
+                        p.text-white-50
+                            | I first learned to code in high school in basic JavaScript class that showed me what is possible with programming. I learned as much as I could outside of school about web development through courses on Udemy and with the help of Youtube. To further fuel my passion, I have attended an Accelerated Coding Bootcamp, LearningFuze in Orange County, CA. Luckily I was able to grow my skills and now I am professional Front-End/Full-Stack Developer.
+                img.img-fluid(src='assets/img/ipad.png', alt='')
+
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-8.col-lg-7
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/adme.png', alt='Ad Me')
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-center.text-lg-left
+                            h4 AdMe
+                            p.text-black-50.mb-0
+                                | An application that connects companies and content creators with campaigns and prizes.
+                // Project One Row
+                .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/nile.png', alt='Nile VR Web Store')
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white Nile - VR Web Store
+                                    p.mb-0.text-white-50
+                                        | Great place to order your favorite VR consoles and games!
+                                        | A full stack LAMP and React shopping cart app that is a single-page React application and a dynamic PHP API, that uses
+                                        | cookies to keep track of the user with sessions.
+                                    hr.d-none.d-lg-block.mb-0.ml-0
+                // Project Two Row
+                .row.justify-content-center.no-gutters
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/jungle.png', alt='Jungle Mix Up')
+                    .col-lg-6.order-lg-first
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                    h4.text-white Jungle Mix Up
+                                    p.mb-0.text-white-50
+                                        | Matching card game made with Javascript, jQuery, HTML, and CSS.
+                                    hr.d-none.d-lg-block.mb-0.mr-0
+
+        //Skills
+        section.content-section.text-center(id="skills")
+            .skills-section
+                .row
+                    .col-12.col-lg-8.offset-lg-2
+                        h2 Skills
+
+                .container.d-flex.justify-content-center
+                    .skillContainer
+                        .skill
+                            .skill-img.javascript-img
+                        .skill
+                            .skill-img.react-img
+                        .skill
+                            .skill-img.node-img
+                        .skill
+                            .skill-img.mysql-img
+                        .skill
+                            .skill-img.php-img
+                        .skill
+                            .skill-img.jquery-img
+                        .skill
+                            .skill-img.express-img
+                        .skill
+                            .skill-img.c-img
+                        .skill
+                            .skill-img.github-img
+                        .skill
+                            .skill-img.figma-img
+                        .skill
+                            .skill-img.aws-img
+                        .skill
+                            .skill-img.html-img
+                        .skill
+                            .skill-img.css-img
+                        .skill
+                            .skill-img.bootstrap-img
+                        .skill
+                            .skill-img.webpack-img
+                        .skill
+                            .skill-img.babel-img
+                        .skill
+                            .skill-img.pug-img
+
+        // Signup
+        //- section#signup.signup-section
+        //-     .container
+        //-         .row
+        //-             .col-md-10.col-lg-8.mx-auto.text-center
+        //-                 i.far.fa-paper-plane.fa-2x.mb-2.text-white
+        //-                 h2.text-white.mb-5 Subscribe to receive updates!
+        //-                 form.form-inline.d-flex
+        //-                     input#inputEmail.form-control.flex-fill.mr-0.mr-sm-2.mb-3.mb-sm-0(type='email', placeholder='Enter email address...')
+        //-                     button.btn.btn-primary.mx-auto(type='submit') Subscribe
+
+        // Contact
+        section.contact-section.bg-black
+            .container
+                .row
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-map-marked-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Location
+                                hr.my-4
+                                .small.text-black-50 Orange County, CA
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-envelope.text-primary.mb-2
+                                h4.text-uppercase.m-0 Email
+                                hr.my-4
+                                .small.text-black-50
+                                    a(href='mailto:smcgrath7777@gmail.com') smcgrath7777@gmail.com
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-mobile-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Phone
+                                hr.my-4
+                                .small.text-black-50 +1 (949) 554-9515
+                .social.d-flex.justify-content-center
+                    a.mx-2(href='https://www.linkedin.com/in/shane-mcgrat/')
+                        i.fab.fa-linkedin
+                    a.mx-2(href='https://github.com/smcgrath0')
+                        i.fab.fa-github
+
+        // Footer
+        footer.footer.bg-black.small.text-center.text-white-50
+            .container
+                | Copyright © Shane Mcgrath 2020
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
