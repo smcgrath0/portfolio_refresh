@@ -1,6 +1,7 @@
 .contact-section {
     padding-top: 5rem;
     .card {
+        transition: 0.5s transform;
         border: 0;
         border-bottom: 0.25rem solid $primary;
         h4 {
@@ -13,6 +14,10 @@
             border-color: $primary;
             border-width: 0.25rem;
             width: 3rem;
+        }
+
+        &:hover {
+            transform: translateY(-10%);
         }
     }
     .social {

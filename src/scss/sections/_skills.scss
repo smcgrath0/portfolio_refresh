@@ -14,19 +14,25 @@
     flex-wrap:wrap;
     padding: 5vw 5vw 10vw 5vw;
   }
-  
+  .skills-section {
+    .row {
+      margin: 0;
+    }
+  }
   .skill-img{
     height: 50px;
     width: 50px;
     border-radius: 5px;
     transition-duration: 0.5s;
     transform:scale(1);
+    border: 2px solid rgba(0,0,0,0);
   }
   
   .skill-img:hover{
     background-color:rgba(255,255,0,1);
     transition-duration: 0.5s;
     transform:scale(1.2);
+    border: 2px solid #64a19d;
   }
   
   .javascript-img{
@@ -115,6 +121,7 @@
     background-size: cover;
     background-position: bottom;
     border-radius: 18%;
+    background-repeat: no-repeat;
   }
   
   .babel-img{
