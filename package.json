@@ -30,6 +30,9 @@
     "dependencies": {
         "bootstrap": "4.5.3"
     },
+    "engines": {
+        "node": "14.15.4"
+    },
     "devDependencies": {
         "autoprefixer": "10.0.1",
         "browser-sync": "2.26.13",
