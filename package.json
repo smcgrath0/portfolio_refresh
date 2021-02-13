@@ -29,12 +29,7 @@
         "url": "https://github.com/smcgrath0/portfolio_refresh.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.3"
-    },
-    "engines": {
-        "node": "14.15.4"
-    },
-    "devDependencies": {
+        "bootstrap": "4.5.3",
         "autoprefixer": "10.0.1",
         "browser-sync": "2.26.13",
         "chokidar": "3.4.3",
@@ -47,5 +42,8 @@
         "upath": "2.0.0",
         "dotenv": "^8.2.0",
         "express": "^4.17.1"
+    },
+    "engines": {
+        "node": "14.15.4"
     }
 }
